@@ -24,7 +24,7 @@ class MailServiceTest {
     @Test
     @DisplayName("테스트 이메일 발송입니다")
     public void MailsendTest() {
-        mailService.sendMail(to, "제목입니다", "내용입니다");
+        mailService.sendCodeEmail(to);
     }
 
 }
